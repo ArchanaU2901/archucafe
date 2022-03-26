@@ -1,0 +1,143 @@
+ *{
+ margin: 0;
+ padding: 0;
+ text-transform: capitalize;
+}
+
+html{
+    width: 100vw;
+    height: 100vh;
+}
+ 
+body{
+ background-repeat: no-repeat;
+ background-attachment: fixed;
+ background-size: cover;
+ background-position: top;
+ background-image: url(\pic.jpg);
+ width: 100%;
+ height: auto;
+ font-family: Arial, Helvetica;
+ letter-spacing: 0.02em;
+  font-weight: 400;
+ -webkit-font-smoothing: antialiased; 
+}
+
+.form {
+    background: linear-gradient(rgb(192, 144, 168), transparent);
+    height: 38em;
+    width: auto;
+    margin: 5em 30em;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.i{
+    font-size: 72px;
+    background-color: cyan;
+    font-weight: bold;
+    /* height: 42%; */
+    width: 13%;
+    height: 13%;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    border-radius: 50%;
+}
+.main{
+    margin:44px 0;
+}
+
+form{
+    width: 20em;
+    /* justify-content: center; */
+    margin: auto;
+    display: block;
+}
+form >input{
+    width: 24em;
+    height: 3em;
+    text-align: center;
+    margin: 15px 0;
+    font-size: 15px;
+    border: 2px solid blue;
+    border-radius:36px ;
+}
+input:focus {
+	outline: none;
+  	border: 2px solid cyan;
+    box-shadow: 0 0 20px cyan;
+    width: 18em;
+    transition: 1s;
+    border-top-right-radius:12px ;
+    border-bottom-left-radius:12px ;
+
+}
+.sub{
+    width: 10em;
+    height: 3em;
+    background: transparent;
+    font-size: 17px;
+    color: red;
+    border: 2px solid cyan;
+    box-shadow: 0 0 20px gray;
+}
+.sub:hover{
+    box-shadow: none;
+    border: 2px solid rgb(203, 236, 125);
+    background-color: rgb(124, 124, 124);
+    color: white;
+    border-bottom-left-radius: 21px;
+    border-top-right-radius: 21px;
+    cursor:pointer;
+}
+
+p{
+    color: red;
+    font-weight: bold;
+}
+.login{
+    display: block;
+    margin: 20px 0;
+    color: white;
+}
+
+ 
+@media screen and (max-width: 600px){
+
+  
+
+    .form {
+        background: linear-gradient(rgb(192, 144, 168), transparent);
+        height: 38em;
+        width: auto;
+        margin: auto;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    form >input{
+        width: 21em;
+        height: 3em;
+        text-align: center;
+        margin: 15px 0;
+        font-size: 15px;
+        border: 2px solid blue;
+        border-radius:36px ;
+    }
+    .i {
+        font-size: 60px;
+        background-color: cyan;
+        font-weight: bold;
+        /* height: 42%; */
+        width: 24%;
+        height: 10%;
+        justify-content: center;
+        text-align: center;
+        margin: auto;
+        border-radius: 50%;
+    }
+}
+
+ 
+

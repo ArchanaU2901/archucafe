@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <title>login</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div class="form" >
+        <div class="i">
+            L
+        </div>
+        <br>
+        <h1>
+        log in   
+        </h1>
+        
+         <div class="main">
+            <form method="get" onsubmit= " returnfunc() " action="login.html"> 
+                 <input type="email" placeholder="Enter email" id="mail" > <p id="email"></p>
+                <input type="password" placeholder="Enter Password" id="pass"><p id="passw"></p>
+                    <button type="submit" class="sub" onclick="func()">submit</button>
+                    <a  href="signup.html" class="login"> Dont have account</a>
+                    <a  href="index.html" class="login">BACK</a>
+
+            </form>
+
+        </div>
+    </div>
+
+    <script>
+        function func() {
+             
+            
+            var email=document.getElementById("mail").value
+            var pass=document.getElementById("pass").value
+            
+             
+            if (email == "") {
+                document.getElementById("email").innerHTML="Email should be entered"
+               
+                 return false ;
+             }
+             
+            if (pass == "") {
+                document.getElementById("passw").innerHTML="Enter Passeord that have atleast length of  8 "
+                  return false ;
+             }
+            
+            else{
+                alert("successfully registered as "  +  email)
+
+             }
+        }
+        
+    </script>
+</body>
+</html>

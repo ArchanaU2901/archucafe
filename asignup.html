@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="X-UA-Compatible" url="/ice.html">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Login.css">
+</head>
+
+<body>
+ 
+       
+
+    <form class="box" method="get">
+        <h1>Sign up</h1>
+        <div class="js">
+<p id="msg"></p>
+  </div>
+        <input type="text" name="" placeholder="Enter Username" id="name">
+        <input type="text" name="" placeholder="Enter Password" id="pass">
+        <input type="text" name="" placeholder="Confim pass " id="cpass">
+
+
+        <input type="Submit" name="" value="Signup" onclick="signup()">
+    </form>
+
+    <a href="Login.html">Log in </a>
+
+    <script>
+        function signup() {
+            var uname = document.getElementById("name").value
+            var pass = document.getElementById("pass").value
+            var cpass = document.getElementById("cpass").value
+            if (uname == "") {
+                alert("naamm daal")
+                uname.focus();
+            }
+
+            if (pass == "") {
+                window.alert("please enter pass");
+                pass.focus();
+            }
+            if (cpass == "") {
+                window.alert("please enter confirm pass");
+                cpass.focus();
+            }
+
+            if (pass != cpass) {
+                alert("confirm pass is not match")
+            }
+
+            else {
+              document.querySelector("#msg").innerHTML = uname 
+                
+                    }
+
+        }
+
+
+    </script>
+
+</body>
+
+</html>

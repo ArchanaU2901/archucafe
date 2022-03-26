@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login | Acafe</title>
+    <link rel="stylesheet" href="main.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+
+</head>
+
+<body>
+    <div class="form" >
+        <div class="i">
+            S
+        </div>
+        <br>
+        <h1>
+        Sign up    
+        </h1>
+        <p id="msg"> </p>
+        <div class="main">
+            <form method="get"  onsubmit="func()" action="login.html"> 
+                <input type="text" placeholder="Enter Name" id="name"> <p id="ename"> </p>
+                <input type="email" placeholder="Enter Email" id="mail"><p id="email"> </p>
+                <input type="password" placeholder="Enter Password" id="pass"><p id="vpass"> </p>
+                <input type="password" placeholder="Confirm Password" id="cpass"><p id="cpass"> </p>
+                    <button type="submit" class="sub" onclick="func()">submit</button>
+                    <a  href="login.html" class="login"> Already registered </a>
+                    <a  href="index.html" class="login">BACK</a>
+            </form>
+
+        </div>
+    </div>
+
+    <script>
+        function func() {
+            var username=document.getElementById("name").value
+            var email=document.getElementById("mail").value
+            var pass=document.getElementById("pass").value
+            var check=document.getElementById("cpass").value
+            if (username == "") {
+                 document.getElementById("ename").innerHTML="User name cannot be empty"
+                return false ;
+             }
+            if (email == "") {
+                document.getElementById("email").innerHTML="Email should be entered"
+               
+                 return false ;
+             }
+             
+            if (pass == "") {
+                document.getElementById("vpass").innerHTML="Enter Passeord that have atleast length of  8 "
+                  return false ;
+             }
+            if (check == "") {
+                document.getElementById("cpass").innerHTML=" enter Confirm password"
+                  return false ;
+             }
+
+            if (pass != check) {
+                alert("password and confirm password do not match ")
+                 return false ;
+            }
+            else{
+                alert("successfully registered")
+             }
+        }
+    </script>
+</body>
+
+</html>

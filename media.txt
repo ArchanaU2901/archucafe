@@ -1,0 +1,178 @@
+@media screen and (max-width: 1164px) {
+#p2{
+
+padding: 31px 0px !important;
+opacity: 0.7;
+z-index: -1;
+height: 13em !important;
+width: 11em !important;
+padding: 31px 0px;
+margin: 0 0 0px -62px;
+}
+.para{
+position: absolute;
+}
+}
+
+@media screen and (max-width: 1164px) {
+.text1 {
+position: absolute;
+padding: 0em 1em;
+font-family: 'Merriweather', serif;
+font-size: 37px;
+color: black;
+font-weight: bold;
+}
+}
+
+@media screen and (max-width: 1164px) {
+.section-4 {
+background-color: #efc2dc;
+display: flex;
+height: 191vh;
+background-size: cover;
+flex-direction: column;
+}
+}
+
+@media screen and (max-width: 1164px) {
+.ser{
+height: 14em !important;
+width: 16em !important;
+border-radius: 50%;
+/* right: 16px; */
+margin: 5px -62px;
+}
+
+}
+
+@media screen and (max-width: 1164px) {
+.section-1 {
+height: 50vh !important;
+}
+}
+
+@media screen and (max-width: 1164px) {
+.para {
+text-align: center;
+padding: 0px 0px;
+top: 143vh;
+right: 1px;
+}
+}
+
+@media screen and (max-width: 1164px) {
+.section-3 {
+
+height: 50vh;
+}
+}
+
+@media screen and (max-width: 1164px) {
+.photo{
+margin: 0px;
+padding: 13px 0px;
+left: 13px;
+width: 244px;
+transition: 0.9s;
+border-radius: 36px;
+}
+}
+
+@media screen and (max-width: 1164px) {
+.photo{
+margin: 0px;
+padding: 13px 0px;
+left: 13px;
+width: 244px;
+transition: 0.9s;
+border-radius: 36px;
+}
+}
+
+
+@media screen and (max-width: 1164px) {
+.section-5 {
+
+height: 50vh;
+}
+}
+
+@media screen and (max-width: 1164px) {
+.section-6 {
+
+height: 76vh;
+}
+}
+
+
+@media screen and (max-width: 1164px) {
+.add p {
+margin: 0em 1em;
+color: rgb(5, 5, 5);
+text-align: center;
+}
+}
+
+@media screen and (max-width: 1164px) {
+.section-2 {
+background-color: #efc2dc;
+height: 122vh;
+display: flex;
+background-size: cover;
+}
+}
+
+
+@media screen and (max-width: 1164px){
+a.log {
+display: none;
+}
+}
+
+
+@media screen and (max-width: 1164px){
+li {
+text-decoration: none;
+display: inline-block;
+margin: -8px ;
+}
+}
+
+@media screen and (max-width: 1164px){
+#aser{
+margin:0 88px;
+}
+}
+
+@media screen and (max-width: 1164px){
+h1 {
+text-align: center;
+color: rgb(241, 36, 88);
+margin: 0 0;
+margin-right: 0px;
+padding: 0 0;
+position: static;
+bottom: 17em;
+}
+}
+@media screen and (max-width: 1164px){
+    .pluse{
+        color:red !important;
+        font-size: 14px !important;
+    }
+    }
+
+@media screen and (max-width: 1164px){
+    .msg {
+        text-transform: capitalize;
+        font-size: 17px;
+        color: #455de1;
+    }
+}
+     .sig{       
+            border: 2px solid black;
+            border-radius: 36px;
+        }
+   
+ 

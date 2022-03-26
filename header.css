@@ -1,0 +1,47 @@
+ 
+li{
+    display: inline;
+    margin:  10px;
+    
+}
+
+ .log{
+     float: right;
+ }
+
+ li {
+    border: 2px solid #9e9e9e;
+    /* margin: 0 8px; */
+    /* width: 54px; */
+    padding: 8px 17px;
+    border-radius: 36px;
+}
+
+ 
+
+li:hover{
+    transform: scale(1.2);
+    background: linear-gradient(to right,#ff8a00,#da1b60);
+    padding: 10px 20px;
+    transition: 0.05s;
+}
+
+li a{
+    text-decoration: none;
+    text-transform: none;
+}
+
+.log{
+    border: 2px solid #9e9e9e;
+    /* margin: 0 8px; */
+    /* width: 54px; */
+    padding: 8px 17px;
+    border-radius: 36px;
+}
+
+.log:hover{
+    transform: scale(1.2);
+    background: linear-gradient(to right,#ff8a00,#da1b60);
+    padding: 10px 20px;
+    transition: 0.05s;
+}
